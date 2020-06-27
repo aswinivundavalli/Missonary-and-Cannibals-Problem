@@ -5,3 +5,5 @@ Details:
 
 Here, the player needs to enter no.of missionaries and no.of cannibals to cross the river(left to right or right to left).if no.of cannibals exceeded missionaries on any side of the river  the terminal shows “~~~~~~~~~~~~~~~~YOU LOST!!~~~~~~~~~~~~~~~~”
 If all the missionaries and cannibals reached right side of the river the terminal shows “~~~~~~~~~~~~~~~~YOU WON!!~~~~~~~~~~~~~~~~”
+
+FYI: The code work is done as part of course assignment (6131D-NITC)
