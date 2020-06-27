@@ -31,6 +31,7 @@ def displayPosition():
         side = False
         print("\nBoat on leftside of river\n")
 
+
 def boat_lr():
     global ml_count, mr_count, cl_count, cr_count, left, right
     for i in range(0, missionariesNumber):
@@ -106,8 +107,13 @@ def boat_rl():
 # Flag to indicate the boat side
 # odd no. indicates boat is on left side and even no. indicates boat is on right side
 boatDirection = 1
+#ml_count : count of missionaries on left side
+#mr_count : count of missionaries on right side
+#cl_count : count of cannibals on left side
+#cr_count : count of cannibals on right side
 ml_count = cl_count = 3
 mr_count = cr_count = 0
+# Initial positions of missinaries and cannibals
 left = ['M', 'M', 'M', 'C', 'C', 'C']
 right = [' ', ' ', ' ', ' ', ' ', ' ']
 side = False
